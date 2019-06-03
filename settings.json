@@ -1,0 +1,168 @@
+{
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.colorTheme": "One Dark Pro Vivid",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.statusBar.feedback.visible": false,
+    "window.restoreFullscreen": true,
+
+    // Editor config.
+    "editor.cursorStyle": "block",
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.suggestSelection": "first",
+
+    // Files config.
+    "files.trimTrailingWhitespace": true,
+
+    // Python config.
+    "python.condaPath": "/Users/DeepWalter/anaconda/bin/conda",
+    "python.pythonPath": "/Users/DeepWalter/anaconda/envs/pytorch/bin/python",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": false,
+    "python.jediMemoryLimit": -1,
+    "[python]": {
+        "editor.rulers": [
+            72,
+            79
+        ],
+        "editor.formatOnSave": true
+    },
+
+    // Latex config.
+    "latex-workshop.chktex.enabled": true,
+    "latex-workshop.chktex.args.active": [
+        "-wall",
+        "-n21",
+        "-n22",
+        "-n30",
+        "-n44",
+        "-n45",
+        "-n46",
+        "-n1",
+        "-n6",
+        "-e16",
+        "-q"
+    ],
+    "latex-workshop.chktex.args.root": [
+        "-wall",
+        "-n21",
+        "-n22",
+        "-n30",
+        "-n44",
+        "-n45",
+        "-n46",
+        "-n1",
+        "-n6",
+        "-e16",
+        "-q"
+    ],
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-shell-escape",
+                "-pdf",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-shell-escape",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ]
+        }
+    ],
+    "[latex]": {
+        "editor.rulers": [
+            110
+        ]
+    },
+
+    // Markdown config.
+    "markdownlint.config": {
+        "MD013": false,
+        "MD002": false,
+        "MD018": false,
+        "MD031": false,
+        "MD040": false,
+        "MD041": false,
+        "MD033": false,
+        "MD032": false
+    },
+    "[markdown]":{
+        "editor.rulers": [
+            120
+        ],
+        "editor.tabSize": 2
+    },
+
+    // Java config.
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "[java]": {
+        "editor.rulers": [100],
+    },
+
+    // Todo config.
+    "todohighlight.include": [
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.html",
+        "**/*.php",
+        "**/*.css",
+        "**/*.scss",
+        "**/*.tex"
+    ],
+
+    // HTML config.
+    "[html]": {
+        "editor.tabSize": 2
+    },
+
+    // C config.
+    "[c]": {
+        "editor.rulers": [79],
+        "editor.tabSize": 4
+    },
+
+    // ESLint config.
+    "eslint.options": {
+        "useEslintrc": false,
+
+        "parserOptions": {
+            "ecmaVersion": 2018
+        },
+        "env": {
+            "node": true,
+            "es6": true
+        },
+        "extends": "eslint:recommended"
+    },
+    // Live server config.
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.minimap.enabled": true
+}
